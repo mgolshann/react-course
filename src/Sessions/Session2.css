@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.app {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    width: 50%;
+    height: 400px;
+    color: white;
+    flex-flow: column;
+}
+
+input {
+    width: 300px;
+    padding: 5px;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+}
